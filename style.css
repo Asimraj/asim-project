@@ -1,0 +1,589 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+.header{
+    width:100%;
+    height:50px;
+    background-color:rgba(0, 0, 255, 0.609);
+    
+}
+.header img{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    padding:5px;
+}
+.icons{
+    width: 300px;
+    padding-left: 90px;
+}
+.header .p1{
+    position: relative;
+    left: 450px;
+    bottom: 30px;
+    display: inline-block;
+    width: 500px;
+    color: white;
+}
+.btn{
+    width: 300px;
+    display: inline-block;
+     position: relative;
+     left: 490px;
+     bottom: 30px;
+}
+.btn button{
+    padding: 3px;
+    cursor: pointer;
+}
+.nav{
+    position: relative;
+    bottom: 20px;
+    background-color: whitesmoke;
+    width: 100%;
+    height:70px;
+
+}
+.nav img{
+    width: 190px;
+    height: auto;
+    padding-left: 100px;
+}
+.nav li{
+    display: inline-block;
+    position: relative;
+    left:600px;
+    bottom:60px;
+    padding: 12px;
+}
+.nav li:hover{
+    background-color: rgba(0, 0, 255, 0.609);
+    color: white;
+    border-radius: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+#li1{
+    background-color: rgba(0, 0, 255, 0.609);
+    border-radius: 18px;
+    padding: 10px;
+    color: white;
+
+}
+.bigimg{
+    position: relative;
+   bottom: 30px;
+   right: 10px;
+}
+.bigimg>img{
+    width: 100%;
+    height: auto;
+}
+
+.marqp{
+    width: 1100px;
+    position: relative;
+    bottom: 30px;
+    margin-left:100px; 
+    background-color: rgba(0, 0, 255, 0.609);
+    padding: 5px;
+    color: white;
+}
+.intro{
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+}
+.intro h1{
+    text-align: center;
+    padding-top: 50px;
+    color: rgba(0, 0, 255, 0.609);
+}
+.intro b{
+    color: green;
+}
+.intro img{
+   margin-left: 650px;
+   width: 40px;
+   height: 40px;
+   margin-top: -10px;
+}
+.intro #divp{
+    width: 75%;
+    height: auto;
+    text-align: left;
+    word-spacing: 3px;
+    line-height: 25px;
+    margin-left: 180px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    color: gray;
+}   
+.Numb{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 255, 0.760);
+}
+.Numb img{
+    display: inline-block;
+    width: 40px;
+    height: auto;
+    padding:100px;
+    margin-left: 65px;
+}
+.Numb>.div1{
+    width: 100%;
+    height: 160px;
+}
+
+.Numb>.div2{
+    width: 100%;
+    height: 60px;
+}
+.Numb h1{
+    font-size: 50px;
+    display: inline-block;
+    color: white;
+    margin-left: 140px;
+    padding: 5px;
+}   
+.Numb h4{
+    display: inline-block;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 100px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.Numb b{
+    color: rgb(21, 255, 0);
+    font-size: 22px;
+}
+.wwd{
+    padding-top: 50px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 580px;
+}
+.wwd>.div1{
+    margin-left: 350px;
+    text-align: center;
+    width: 50%;
+}
+.wwd h1{
+    color:rgba(0, 0, 255, 0.760);
+}
+.wwd b{
+    color: green;
+}
+.div1>#imgg{ 
+   width: 40px;
+   height: 40px;
+}
+#card1>h2{
+    color: rgba(0, 0, 255, 0.609);
+}
+#card1>img{
+    width: 80px;
+    height: 80px;
+}
+.cards{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+.cards>#card1{
+    display: inline-block;
+    background-color: white;
+    width: 370px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.374);
+}
+#card2>h2{
+    color: rgba(0, 0, 255, 0.609);
+}
+#card2>img{
+    width: 80px;
+    height: 80px;
+}
+.cards>#card2{
+    display: inline-block;
+    background-color: white;
+    width: 370px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.374);
+}
+#card3>h2{
+    color: rgba(0, 0, 255, 0.609);
+}
+#card3>img{
+    width: 80px;
+    height: 80px;
+}
+.cards>#card3{
+    display: inline-block;
+    background-color: white;
+    width: 370px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.374);
+}
+#card4>h2{
+    color: rgba(0, 0, 255, 0.609);
+}
+#card4>img{
+    width: 80px;
+    height: 80px;
+}
+.cards>#card4{
+    display: inline-block;
+    background-color: white;
+    width: 370px;
+    height: 150px;
+    margin-top: 25px;
+    margin-left:100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.374);
+}
+#card5>h2{
+    color: rgba(0, 0, 255, 0.609);
+}
+#card5>img{
+    width: 80px;
+    height: 80px;
+}
+.cards>#card5{
+    display: inline-block;
+    background-color: white;
+    width: 370px;
+    height: 150px;
+    margin-top: 25px;
+    margin-left:20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.374);
+}
+#card6>h2{
+    color: rgba(0, 0, 255, 0.609);
+}
+#card6>img{
+    width: 80px;
+    height: 80px;
+}
+.cards>#card6{
+    display: inline-block;
+    background-color: white;
+    width: 370px;
+    height: 150px;
+    margin-top: 25px;
+    margin-left:20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.374);
+}
+.mission{
+    width: 100%;
+    height: 400px;
+}
+.mission>h1{
+    color: blue;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 50px;
+}
+.mission>#liver{
+    background-color: whitesmoke;
+    display: inline-block;
+    width: 350px;
+    height: 70px;
+    margin-left: 70px;
+    margin-top: -10px;
+}
+#liver>img{
+    display: inline-block;
+    padding: 8px;
+    margin-top: 10px;
+    width: 40px;
+    height: 30px;
+}
+#liver>h3{
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+    color: blue;
+    float: right;
+    margin-right:180px;
+    padding-top: 20px;
+}
+.mission>#house{
+    background-color: whitesmoke;
+    display: inline-block;
+    width: 350px;
+    height: 70px;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+#house>img{
+    display: inline-block;
+    padding: 8px;
+    margin-top: 10px;
+    width: 40px;
+    height: 30px;
+}
+#house>h3{
+    width: 200px;
+    height: 20px;
+    display: inline-block;
+    color: blue;
+    float: right;
+    margin-right:80px;
+    padding-top: 23px;
+}
+.mission>#laptop{
+    background-color: whitesmoke;
+    display: inline-block;
+    width: 350px;
+    height: 70px;
+    margin-right: 250px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#laptop>img{
+    display: inline-block;
+    padding: 8px;
+    margin-top: 10px;
+    width: 40px;
+    height: 30px;
+}
+#laptop>h3{
+    width: 200px;
+    height: 20px;
+    display: inline-block;
+    color: blue;
+    float: right;
+    margin-right:80px;
+    padding-top: 23px;
+}
+.mission>#plant{
+    background-color: whitesmoke;
+    display: inline-block;
+    width: 350px;
+    height: 70px;
+    margin-right: 250px;
+    margin-left: -223px;
+    margin-top: 20px;
+}
+#plant>img{
+    display: inline-block;
+    padding: 8px;
+    margin-top: 10px;
+    width: 40px;
+    height: 30px;
+}
+#plant>h3{
+    width: 200px;
+    height: 20px;
+    display: inline-block;
+    color: blue;
+    float: right;
+    margin-right:80px;
+    padding-top: 23px;
+}
+.upcoming{
+    display:block;
+    width: 300px;
+    height: 270px;
+    margin-left: 830px;
+    margin-top: -240px;
+}
+.upcoming>h1{
+    color: blue;
+}
+.mission .marquetop{
+    color: gray;    
+    text-align: justify;
+    line-height: 20px;
+    display: inline-block;
+    width: 250px;
+    margin-top: 20px;
+    height: 210px;
+}
+.marquetop i{
+    color: green    ;
+}
+#ig{
+    width: 100%;
+    height: auto;
+}
+#imglogo>h1{
+    color: blue;
+}
+#imglogo b{
+    color: green;
+}
+#imglogo>img{
+    width: 40px;
+    height: 40px;
+}
+#ig>#imglogo{
+    padding: 5px;
+    text-align: center;
+}
+.images{
+    width: 100%;
+    display: inline-block;
+    padding: -10px;
+    height: 350px;
+    text-align: center;
+}
+.images>#img1{
+    margin-right: -17px;
+    width: 230px;  
+    height: 150px; 
+    
+}
+.images>#img2{
+    margin-right: -17px;
+    width: 230px;  
+    height: 150px;  
+}
+.images>#img3{
+    margin-right: -19px;
+    width: 230px;  
+    height: 150px;  
+}
+.images>#img4{
+    margin-right: -17px;
+    width: 230px;  
+    height: 150px;  
+}
+.images>#img5{
+    margin-right: -17px;
+    width: 230px;  
+    height: 150px;  
+    }
+    .continfo{
+        width: 100%;
+        height: 380px;
+        background-color: rgba(0, 0, 0, 0.844);
+    }
+    .continfo>#contact{
+        width: 350px;
+        color: rgb(151, 151, 151);
+        padding: 100px;
+        line-height: 30px;
+    }
+    .continfo #p2{
+        color: rgb(151, 151, 151);
+        display: inline-block;
+        
+    }
+    .continfo #p3{
+        color: rgb(151, 151, 151);
+        display: inline-block;
+        margin-left: 45px;  
+    }
+    .continfo>#ul{
+        display: inline-block;
+       color: white;
+       float: right;
+       margin-top: -330px;
+      margin-right: 750px;
+    }
+    #contlink{
+        display: inline-block;
+        float: right;
+        margin-top: -330px;
+        margin-right: 320px;
+        height: 100px;
+    }
+    #contlink>h3{
+        color:white;
+        text-align: center;
+    }
+    #contlink>#imgc1{
+        display: inline-block;
+       margin-right: -30px ;
+       width: 25px;
+       height: 25px;
+       margin-top: -10px;
+       margin-left: 0px;
+    }
+    #contlink>#imgc2{
+        display: inline-block;
+       margin-right: -30px ;
+       width: 25px;
+       height: 25px;
+       margin-top: -10px;
+       margin-left: 30px;
+    }
+    #contlink>#imgc3{
+        display: inline-block;
+       margin-right: -30px ;
+       width: 25px;
+       height: 25px;
+       margin-top: -10px;
+       margin-left: 30px;
+    }
+    #contlink>#imgc4{
+        display: inline-block;
+       margin-right: -30px ;
+       width: 25px;
+       height: 25px;
+       margin-top: -10px;
+       margin-left: 30px;
+    }
+    #contlink>#imgc5{
+        display: inline-block;
+       margin-right: -30px ;
+       width: 25px;
+       height: 25px;
+       margin-top: -10px;
+       margin-left: 30px;
+    }
+    .footer{
+        background-color: rgba(0, 0, 255, 0.609);
+        width:100%;
+        height:45px;
+    }
+    .footer>p{
+        display: inline-block;
+        color: white;
+        padding: 10px;
+        font-size: 12px;
+        margin-top: 6px;
+        margin-left: 100px;   
+    }
+    .tbtn{
+        display: inline-block;
+        position: fixed;
+        left: 1250px;
+        bottom: 30px;
+        width: 50px;
+        height: 50px;
+        opacity: 0.5;
+    }

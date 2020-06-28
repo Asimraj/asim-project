@@ -1,0 +1,260 @@
+@media only screen and (max-width:400px){
+    body{
+        overflow-x: hidden;
+    }
+  
+    .header{
+        width: 400px;
+        height: 170px;
+    }
+    .icons{
+        padding-top: 10px;
+    }
+    .header .p1{
+        width: 300px;
+        position: relative;
+        left: 50px;
+        top: 15px;
+        text-align: center;
+    }
+    .btn{
+        width: 300px;
+        display: block;
+         position: relative;
+         left: 90px;
+         top: 40px;
+    }
+    .nav{
+        margin-top: 75px;
+        width: 400px;
+        height: 410px;
+    }
+    .nav li{
+        width: 350px;
+        display: block;
+        position: relative;
+        left:10px;
+        bottom:0px;
+        margin-top: 5px;
+    }
+    .bigimg{
+        width: 400px;
+        height: 180px;
+        margin-top: 10px;
+    }
+
+.marqp{
+    width: 300px;
+    height: 15px;
+    position: relative;
+    bottom: 30px;
+    margin-left:40px; 
+}
+.intro{
+    width: 400px;
+}
+.intro h1{
+    font-size: 25px;
+}
+.intro img{
+    float: right;
+     margin-right: 180px;
+}
+.intro #divp{
+    width: 350px;
+    height: auto;
+    word-spacing: 3px;
+    line-height: 25px;
+    margin-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.Numb{
+    width: 400px;
+    height: 1200px;
+    margin-top: -5px;
+ }
+ .Numb>.div1{
+     width: 390px;
+     display: inline-block;
+ }
+ .Numb>.div2{
+     width: 390px;
+     height: auto;
+ }
+.Numb #n1{
+    position: relative;
+    bottom: 850px;
+    right: 20px;
+    font-size: 40px;
+}
+.Numb #n2{
+    position: relative;
+    bottom: 650px;
+    right: 10px;
+    font-size: 40px;
+}
+.Numb #n3{
+    position: relative;
+    bottom: 450px;
+    right: 20px;
+    font-size: 40px;
+}
+.Numb #n4{
+    position: relative;
+    bottom: 250px;
+    right: 20px;
+    font-size: 40px;
+}
+.div3{
+    width: 400px;
+    height: auto;
+}
+.Numb #n5{
+    position: relative;
+    bottom: 1030px;
+    right: 20px;
+    font-size: 20px;
+}
+.Numb #n6{
+    position: relative;
+    bottom: 910px;
+    right: 20px;
+    font-size: 20px;
+}
+.Numb #n7{
+    position: relative;
+    bottom: 790px;
+    right: -15px;
+    font-size: 20px;
+}
+.Numb #n8{
+    position: relative;
+    bottom: 670px;
+    right: -10px;
+    font-size: 20px;
+}
+.wwd{
+    width: 400px;
+    height: auto;
+}
+.wwd>.div1{
+    width: 400px;
+    margin-left: 0px;
+    font-size: 15px;
+}
+.cards{width: 400px;
+    height: 1170px;
+}
+.cards>#card1{
+         margin-left: 20px ;
+}
+.cards>#card4{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.cards>#card5{
+    margin-top: 10px;
+}
+.cards>#card6{
+    margin-top: 10px;
+}
+.mission{
+    width: 400px;
+    height: 470px;
+}
+.mission>h1{
+    margin-top: -20px;
+    margin-left: -10px ;
+    font-size: 20px;
+    text-align: center;
+}
+.mission #liver{
+    width:360px;
+    margin-left: 20px;
+
+}
+.mission #house{
+    width:360px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.mission #laptop{
+    width:360px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.mission #plant{
+    width:360px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.upcoming{
+    padding: 10px;
+    height: 280px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+.marquetop>marquee{
+    height: 200px;
+    margin-top: -20px;
+}
+#ig{
+    width: 400px;
+    margin-top: 330px;
+}
+.images{
+    width: 400px;
+    height: 830px;
+    padding-top: 10px;
+}
+.images>#img2{
+    margin-top: -10px;
+}
+.images>#img3{
+    margin-top: -10px;
+}
+.images>#img4{
+    margin-top: -10px;
+}
+.images>#img5{
+    margin-top: -10px;
+}
+.continfo{
+    width: 400px;
+    height: auto;
+}
+#contact{
+    width: 400px;
+    font-size: small;
+    display: inline-block;
+    margin-left: -60px;
+    text-align: justify;
+    margin-top: -70px;
+    height: 400px;
+}
+.continfo>#ul{
+    width: 200px;
+    position: relative;
+    top: 45px;
+    left: 650px;
+    font-size: x-large;
+    text-align: center;
+    color: white;
+}
+#contlink{
+    width: 300px;
+    margin-top: -200px;
+    margin-left: 45px;
+    float: left;
+    text-align: center;
+}
+.footer{
+    width: 400px;
+}
+.tbtn{
+    width: 50px;
+    position: fixed;
+    left: 330px;
+}
